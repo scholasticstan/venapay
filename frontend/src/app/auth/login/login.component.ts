@@ -1,11 +1,18 @@
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms'; // ✅ Import FormsModule
 
 @Component({
   selector: 'app-login',
-  imports: [],
+  standalone: true, // ✅ Ensure this is set
+  imports: [FormsModule], // ✅ Add FormsModule to imports array
   templateUrl: './login.component.html',
-  styleUrl: './login.component.css'
+  styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
+  email = '';
+  password = '';
 
+  login() {
+    console.log('Login with:', this.email, this.password);
+  }
 }

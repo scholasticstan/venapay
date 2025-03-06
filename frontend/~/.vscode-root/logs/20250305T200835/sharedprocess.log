@@ -1,0 +1,53 @@
+2025-03-05 20:08:37.584 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:08:37.646 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:08:37.676 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:08:37.783 [info] Deleted marked for removal extension from disk ms-python.vscode-pylance /Users/charming/.vscode/extensions/ms-python.vscode-pylance-2025.2.1
+2025-03-05 20:08:37.783 [info] Deleted marked for removal extension from disk ms-vscode-remote.remote-containers /Users/charming/.vscode/extensions/ms-vscode-remote.remote-containers-0.397.0
+2025-03-05 20:08:37.783 [info] Marked extension as removed ms-python.python-2025.0.0-darwin-arm64
+2025-03-05 20:08:37.783 [info] Marked extension as removed ms-python.vscode-pylance-2025.2.1
+2025-03-05 20:08:37.783 [info] Marked extension as removed ms-vscode-remote.remote-containers-0.397.0
+2025-03-05 20:08:37.783 [info] Marked extension as removed ms-vscode.cmake-tools-1.20.52
+2025-03-05 20:08:37.783 [info] Marked extension as removed streetsidesoftware.code-spell-checker-4.0.39
+2025-03-05 20:08:37.783 [info] Deleted marked for removal extension from disk ms-python.python /Users/charming/.vscode/extensions/ms-python.python-2025.0.0-darwin-arm64
+2025-03-05 20:08:37.784 [info] Deleted marked for removal extension from disk streetsidesoftware.code-spell-checker /Users/charming/.vscode/extensions/streetsidesoftware.code-spell-checker-4.0.39
+2025-03-05 20:08:37.784 [info] Deleted marked for removal extension from disk ms-vscode.cmake-tools /Users/charming/.vscode/extensions/ms-vscode.cmake-tools-1.20.52
+2025-03-05 20:08:38.075 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:08:39.014 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:08:39.021 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:08:39.312 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:08:39.359 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:08:39.383 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:08:39.449 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:08:40.464 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:08:42.003 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:08:42.600 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:10:12.118 [info] Getting Manifest... ms-toolsai.jupyter
+2025-03-05 20:10:13.825 [info] Installing extension: ms-toolsai.jupyter {"productVersion":{"version":"1.98.0","date":"1970-01-01T00:00:00.000Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/Users/charming/.vscode/extensions/extensions.json","path":"/Users/charming/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-03-05 20:10:13.984 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:10:13.985 [error] Error while installing the extension ms-toolsai.jupyter Cannot read the extension from /Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64 vscode-userdata:/Users/charming/.vscode/extensions/extensions.json
+2025-03-05 20:11:11.253 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:11:11.779 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:11:11.833 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:11:11.905 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:11:11.964 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:11:12.024 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:11:13.737 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:12:11.614 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:12:11.891 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:12:11.966 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:12:12.041 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:12:12.176 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:12:12.254 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:12:12.308 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:12:12.368 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:12:14.076 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:12:20.906 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:12:21.179 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:12:21.270 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:12:21.379 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:12:21.440 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:12:21.496 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:12:21.550 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:12:23.432 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:12:28.464 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-03-05 20:17:24.282 [error] [/Users/charming/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-darwin-arm64]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.

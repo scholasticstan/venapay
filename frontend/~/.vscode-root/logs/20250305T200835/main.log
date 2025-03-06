@@ -1,0 +1,29 @@
+2025-03-05 20:08:35.859 [info] update#setState idle
+2025-03-05 20:09:05.864 [info] update#setState checking for updates
+2025-03-05 20:09:07.369 [info] update#setState downloading
+2025-03-05 20:10:10.144 [info] update#setState downloaded
+2025-03-05 20:10:10.150 [info] update#setState ready
+2025-03-05 20:11:10.894 [info] Extension host with pid 92587 exited with code: 0, signal: unknown.
+2025-03-05 20:11:55.024 [info] Extension host with pid 92750 exited with code: 0, signal: unknown.
+2025-03-05 20:12:20.633 [info] Extension host with pid 92961 exited with code: 0, signal: unknown.
+2025-03-05 20:15:31.781 [warning] [perf] profiling STARTED a29ea08c-e8a2-4b84-aa9f-8b5c39742236
+2025-03-05 20:15:36.809 [warning] [perf] profiling DONE a29ea08c-e8a2-4b84-aa9f-8b5c39742236
+2025-03-05 20:15:36.939 [warning] [perf] profiling STARTED a29ea08c-e8a2-4b84-aa9f-8b5c39742236
+2025-03-05 20:15:41.965 [warning] [perf] profiling DONE a29ea08c-e8a2-4b84-aa9f-8b5c39742236
+2025-03-05 20:15:42.088 [warning] [perf] profiling STARTED a29ea08c-e8a2-4b84-aa9f-8b5c39742236
+2025-03-05 20:15:47.123 [warning] [perf] profiling DONE a29ea08c-e8a2-4b84-aa9f-8b5c39742236
+2025-03-05 20:19:34.274 [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?)). Details: Keys: memento/workbench.editors.files.textFileEditor Length: 491
+2025-03-05 20:20:23.422 [info] Extension host with pid 93013 exited with code: 0, signal: unknown.
+2025-03-05 20:20:23.436 [error] [storage state.vscdb] backup(): Error: EACCES: permission denied, stat '/Users/charming/Documents/venapay/frontend/~/.vscode-root/User/globalStorage/state.vscdb'
+2025-03-05 20:20:23.436 [error] [storage state.vscdb] backup(): Error: EACCES: permission denied, stat '/Users/charming/Documents/venapay/frontend/~/.vscode-root/User/workspaceStorage/1741234116103/state.vscdb'
+2025-03-05 20:20:23.436 [error] [storage state.vscdb] backup(): Error: EACCES: permission denied, stat '/Users/charming/Documents/venapay/frontend/~/.vscode-root/User/workspaceStorage/1741234331781/state.vscdb'
+2025-03-05 20:20:23.436 [error] [storage state.vscdb] backup(): Error: EACCES: permission denied, stat '/Users/charming/Documents/venapay/frontend/~/.vscode-root/User/workspaceStorage/a7b542f62550b7fe7d99c0e61aa03c11/state.vscdb'
+2025-03-05 20:20:23.437 [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?),(?,?),(?,?),(?,?)). Details: Keys: __$__targetStorageMarker, terminal.integrated.bufferState, lifecyle.lastShutdownReason, codelens/cache2 Length: 9586
+2025-03-05 20:20:23.438 [error] Error: EACCES: permission denied, unlink '/Users/charming/Documents/venapay/frontend/~/.vscode-root/User/workspaceStorage/6eb977842287d9b297583e19f69dd821/state.vscdb'
+    at async Object.unlink (node:internal/fs/promises:1075:10)
+    at async y9.y (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/main.js:35:39885)
+    at async Xu.w (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/main.js:35:62193)
+    at async Xu.close (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/main.js:35:61617)
+    at async Promise.all (index 5)
+    at async Object.e [as settled] (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/main.js:30:109720)
+    at async file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/main.js:35:34265

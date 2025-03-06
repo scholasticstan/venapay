@@ -1,0 +1,30 @@
+file:///Users/charming/Documents/venapay/frontend/src/app/auth/auth.service.ts {"mtime":1741233828974,"ctime":1741233828974,"size":133,"etag":"3dr91r2kk49","orphaned":false,"typeId":""}
+import { Injectable } from '@angular/core';
+import { AngularFireAuth } from '@angular/fire/compat/auth';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class AuthService {
+  constructor(private afAuth: AngularFireAuth) {}
+
+  // Register User
+  register(email: string, password: string) {
+    return this.afAuth.createUserWithEmailAndPassword(email, password);
+  }
+
+  // Login User
+  login(email: string, password: string) {
+    return this.afAuth.signInWithEmailAndPassword(email, password);
+  }
+
+  // Logout User
+  logout() {
+    return this.afAuth.signOut();
+  }
+
+  // Get Authenticated User
+  getUser() {
+    return this.afAuth.authState;
+  }
+}
