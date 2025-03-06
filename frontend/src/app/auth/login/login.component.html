@@ -1,4 +1,15 @@
-<h2>Login</h2>
-<input type="email" placeholder="Email" [(ngModel)]="email">
-<input type="password" placeholder="Password" [(ngModel)]="password">
-<button (click)="login()">Login</button>
+<mat-card class="auth-card">
+    <h2>Login</h2>
+    <mat-form-field appearance="outline">
+      <mat-label>Email</mat-label>
+      <input matInput type="email" [(ngModel)]="email">
+    </mat-form-field>
+  
+    <mat-form-field appearance="outline">
+      <mat-label>Password</mat-label>
+      <input matInput type="password" [(ngModel)]="password">
+    </mat-form-field>
+  
+    <button mat-raised-button color="primary" (click)="login()">Login</button>
+  </mat-card>
+  

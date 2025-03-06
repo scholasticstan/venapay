@@ -1,53 +1,44 @@
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
-import { LoginComponent } from './auth/login/login.component';
-import { RegisterComponent } from './auth/register/register.component';
-import { AuthGuard } from './auth/auth.guard'; // ✅ Import Auth Guard
-import { AdminGuard } from './auth/admin.guard'; // ✅ Import Admin Guard
+import { Routes } from '@angular/router';
+import { AuthGuard } from './auth/auth.guard';
+import { AdminGuard } from './auth/admin.guard';
 
 export const routes: Routes = [
-  { path: '', redirectTo: 'login', pathMatch: 'full' },  
+  { path: '', redirectTo: 'login', pathMatch: 'full' },
 
-  { path: 'login', component: LoginComponent },
-  { path: 'register', component: RegisterComponent },
+  { path: 'login', loadComponent: () => import('./auth/login/login.component').then(m => m.LoginComponent) },
+  { path: 'register', loadComponent: () => import('./auth/register/register.component').then(m => m.RegisterComponent) },
 
   { path: 'auth', loadChildren: () => import('./auth/auth.module').then(m => m.AuthModule) },
 
-  { 
-    path: 'dashboard', 
+  {
+    path: 'dashboard',
     loadChildren: () => import('./dashboard/dashboard.module').then(m => m.DashboardModule),
-    canActivate: [AuthGuard] // ✅ Protect dashboard
+    canActivate: [AuthGuard]
   },
 
-  { 
-    path: 'payments', 
+  {
+    path: 'payments',
     loadChildren: () => import('./payments/payments.module').then(m => m.PaymentsModule),
-    canActivate: [AuthGuard] // ✅ Protect payments
+    canActivate: [AuthGuard]
   },
 
-  { 
-    path: 'invoices', 
+  {
+    path: 'invoices',
     loadChildren: () => import('./invoices/invoices.module').then(m => m.InvoicesModule),
-    canActivate: [AuthGuard] // ✅ Protect invoices
+    canActivate: [AuthGuard]
   },
 
-  { 
-    path: 'transactions', 
+  {
+    path: 'transactions',
     loadChildren: () => import('./transactions/transactions.module').then(m => m.TransactionsModule),
-    canActivate: [AuthGuard] // ✅ Protect transactions
+    canActivate: [AuthGuard]
   },
 
-  { 
-    path: 'admin', 
+  {
+    path: 'admin',
     loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule),
-    canActivate: [AuthGuard, AdminGuard] // ✅ Only admins can access
+    canActivate: [AuthGuard, AdminGuard]
   },
 
-  { path: '**', redirectTo: 'login', pathMatch: 'full' }  
+  { path: '**', redirectTo: 'login', pathMatch: 'full' }
 ];
-
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
-})
-export class AppRoutingModule { }
